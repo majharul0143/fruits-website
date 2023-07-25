@@ -21,13 +21,11 @@
 
         <!-----------------------------------navbar start------------------------------>
 
-        <nav class="pt-12 pb-14">
-            <div class="navbar lg:bg-[#F85559] lg:rounded-full lg:py-5">
-                <div class="navbar-center">
-                 
-                </div>
+        <nav class="py-14">
+            <div class="navbar lg:bg-[#F85559] lg:rounded-full ">
+                
                 <div class="navbar-start hidden lg:flex">
-                  <ul class="menu menu-horizontal ml-6 px-1 text-lg font-medium text-[#fff]">
+                  <ul class="menu menu-horizontal text-lg font-medium text-[#fff]">
                     <li><a>Home</a></li>
                       <li><a>About Us</a></li>
                       <li><a>Shop</a></li>
@@ -40,22 +38,24 @@
                         <h2 class="font-bold lg:text-[#fff] text-3xl">Fruit Burst</h2>
                     </a>
                 </div>
+                <div>
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost ml-20 md:pl-80 lg:ml-0 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                          </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                        </ul>
+                      </div>
+                </div>
                 <div class="navbar-end hidden lg:block">
                   <label class="bg-white py-4 pl-5 pr-6 rounded-full lg:ml-64">
                     <input class="border-none outline-none" type="text" placeholder="Search here"> <i class="fa-solid fa-magnifying-glass"></i>
                   </label>
                 </div>
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost ml-24 md:pl-80 lg:ml-0 lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                      </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
-                    </ul>
-                  </div>
               </div>
         </nav>
 
@@ -318,8 +318,8 @@
             </div>
         </section>
         <!----------------why choose section------------>
-        <section class="pt-24 p-2 lg:p-0">
-            <div class="text-center space-y-3">
+        <section class=" p-2 lg:p-0">
+            <div class="text-center space-y-3 pt-20">
                 <h2 class="font-bold text-5xl text-[#121212]">Why Choose Us</h2>
                 <p class="font-normal text-[#12121299] max-w-[500px] mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
@@ -384,6 +384,28 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <!--------------footer section-------->
+
+    <footer class="bg-[#121212] mt-20 p-4 lg:p-40">
+        <div>
+            <div class="flex items-center justify-center">
+                <img src="./images/logo.png" alt="">
+                <h2 class="font-bold lg:text-[#fff] text-3xl">Fruit Burst</h2>
+            </div>
+        </div><br>
+        <div class="">
+            <div class="flex w-[100%] flex-wrap lg:flex-row justify-around lg:justify-center gap-12 list-none text-white">
+                <div><a href="">Home</a></div>
+                <div><a href="">About Us</a></div>
+                <div><a href="">Shop</a></div>
+                <div><a href="">All Fruits</a></div>
+                <div><a href="">Support</a></div>
+                <div><a href="">My Account</a></div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </footer>    
 </body>
 </html>
