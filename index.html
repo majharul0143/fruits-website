@@ -23,6 +23,17 @@
 
         <nav class="py-14">
             <div class="navbar lg:bg-[#F85559] lg:rounded-full ">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost  md:pl-80 lg:ml-0 lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                      </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
                 
                 <div class="navbar-start hidden lg:flex">
                   <ul class="menu menu-horizontal text-lg font-medium text-[#fff]">
@@ -33,23 +44,13 @@
                   </ul>
                 </div>
                 <div>
-                    <a class="btn btn-ghost normal-case text-xl">
+                    <a class="btn btn-ghost ml-12 normal-case text-xl">
                         <img class="w-[25%] -mt-3" src="images/logo.png" alt="">
                         <h2 class="font-bold lg:text-[#fff] text-3xl">Fruit Burst</h2>
                     </a>
                 </div>
-                <div>
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost ml-20 md:pl-80 lg:ml-0 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                          </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                          <li><a>Home</a></li>
-                          <li><a>About Us</a></li>
-                          <li><a>Shop</a></li>
-                          <li><a>All Fruits</a></li>
-                        </ul>
-                      </div>
+                <div class="">
+                    
                 </div>
                 <div class="navbar-end hidden lg:block">
                   <label class="bg-white py-4 pl-5 pr-6 rounded-full lg:ml-64">
@@ -62,7 +63,7 @@
         <!-----------------------------navbar end---------------------------->
 
         <!-----------------------banner slider section start------------------>
-        <section class="pl-4 lg:p-0">
+        <section class=" lg:p-0">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <!----------first slide------------>
@@ -191,7 +192,7 @@
         </section>
         <!---------------------fruits card section---------->
         <section class="pt-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pl-3 md:pl-2 lg:pl-0">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 md:p-4 lg:p-0">
                 <div class="card bg-base-100 shadow-sm border border-slate-100">
                     <figure class="px-10 pt-10">
                       <img src="./images/fruit6.png"/>
@@ -272,7 +273,7 @@
                    </div>
                 </div>
                 <div class="max-w-[1100px] mx-auto">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 pl-32 lg:ml-0 md:ml-0 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 ml-12 lg:ml-0 md:ml-0 gap-4">
                         <div class="text-white space-y-3">
                             <img class="ml-3" src="./images/member1.png" alt="">
                             <h3 class="font-semibold text-2xl">Awlad Hossain</h3>
@@ -329,7 +330,7 @@
                         <i class="fa-solid fa-people-group bg-gray-200 p-4 -mt-8 rounded-full"></i>
                         <div class="space-y-3">
                             <h2 class="font-bold text-2xl text-[#121212]">Dedicated Team</h2>
-                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] lg:ml-0"></div>
+                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] md:ml-[35%] lg:ml-0"></div>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div><br>
@@ -337,7 +338,7 @@
                         <i class="fa-regular fa-heart bg-gray-200 p-4 -mt-8 rounded-full"></i>
                         <div class="space-y-3">
                             <h2 class="font-bold text-2xl text-[#121212]">Fresh is Best</h2>
-                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] lg:ml-0"></div>
+                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] md:ml-[35%] lg:ml-0"></div>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div><br>
@@ -345,7 +346,7 @@
                         <i class="fa-solid fa-flask bg-gray-200 p-4 -mt-8 rounded-full"></i>
                         <div class="space-y-3">
                             <h2 class="font-bold text-2xl text-[#121212]">Gift Certificates</h2>
-                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] lg:ml-0"></div>
+                            <div class="w-20 h-0.5 bg-[#1212124f] ml-[26%] md:ml-[35%] lg:ml-0"></div>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -414,6 +415,6 @@
             </div>
         </div>
 
-    </footer>    
+    </footer>    !-->
 </body>
 </html>
